@@ -1,4 +1,4 @@
-FROM v2fly/v2fly-core:v4.45.2
+FROM v2fly/v2fly-core
 
 # RUN yum update -y
 RUN apk add --no-cache nginx bash \
